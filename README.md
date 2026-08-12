@@ -4,7 +4,7 @@ A signal processing and machine learning pipeline that classifies individual hea
 
 ## Why this project is more than a tutorial
 
-Most beginner ECG classification projects train and test on beats from the same patient, which produces misleadingly perfect results (a model I built this way scored 100% accuracy). Real clinical value requires a model that generalizes to **patients it has never seen**, so this project follows the **inter-patient evaluation paradigm**, based on the standard methodology from de Chazal et al. (2004). The model is trained on one group of patients and tested on a completely separate group, with no overlap.
+Most beginner ECG classification projects train and test on beats from the same patient, which produces misleadingly perfect results (a model I built this way scored 100% accuracy). Real clinical value requires a model that generalises to **patients it has never seen**, so this project follows the **inter-patient evaluation paradigm**, based on the standard methodology from de Chazal et al. (2004). The model is trained on one group of patients and tested on a completely separate group, with no overlap.
 
 ## Pipeline
 
