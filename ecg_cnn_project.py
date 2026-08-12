@@ -122,7 +122,7 @@ print(f"\nClass weights (to counter imbalance): {class_weight_dict}")
 
 # 
 # BUILD THE 1D CNN
-# 
+# python ecg_cnn_project.py
 # Layer-by-layer intuition:
 #   Conv1D    -> slides small filters across the waveform, learning to
 #                detect useful local shape patterns
